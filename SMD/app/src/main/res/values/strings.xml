@@ -1,0 +1,34 @@
+<resources>
+    <string name="app_name">Assignment 1</string>
+    <!-- TODO: Remove or change this placeholder text -->
+
+    <string name="enter_the_password">Password</string>
+    <string name="enter_the_firstname">First Name</string>
+    <string name="enter_the_lastname">Last Name</string>
+    <string name="enter_the_email">Email Id</string>
+    <string name="login_here">LOGIN HERE</string>
+    <string name="sign_up">Sign Up</string>
+    <string name="male">Male</string>
+    <string name="user">username</string>
+    <string name="your_name">Aiza Khurram</string>
+    <string name="bio">Your bio goes here</string>
+    <string name="link">abc@gmail.com</string>
+    <string name="post">4312</string>
+    <string name="posts">posts</string>
+    <string name="follower">1100</string>
+    <string name="followers">followers</string>
+    <string name="following">241</string>
+    <string name="followings">following</string>
+    <string name="edit">Edit Profile</string>
+    <string name="text1">ONE</string>
+    <string name="text2">TWO</string>
+    <string name="hello_first_fragment">First Fragment</string>
+    <string name="second_fragment">Second Fragment</string>
+    <string name="female">Female</string>
+    <string name="register_here">Register Here</string>
+    <string name="re_enter_the_password">ReType Password</string>
+    <string name="exit">Exit</string>
+    <string name="first">First</string>
+    <string name="second">Second</string>
+
+</resources>
