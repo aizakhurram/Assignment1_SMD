@@ -17,17 +17,29 @@
         android:layout_height="wrap_content"
         android:background="@color/lilac"
         android:orientation="horizontal"
-        android:padding="10dp">
+        android:padding="8dp">
 
         <ImageView
-            android:layout_width="61dp"
-            android:layout_height="48dp"
-            android:layout_gravity="left"
-            android:src="@drawable/arrow"
             android:id="@+id/backArrow"
-            >
+            android:layout_width="50dp"
+            android:layout_height="40dp"
+            android:layout_gravity="left"
+            android:layout_marginTop="10dp"
+            android:src="@drawable/arrow">
 
         </ImageView>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:text="GUI Demo (21L-5771)"
+            android:textSize="23sp"
+            android:textStyle="bold"
+            android:layout_marginTop="5dp"
+            android:layout_marginLeft="10dp"
+            >
+
+        </TextView>
     </LinearLayout>
     <com.google.android.material.tabs.TabLayout
         android:layout_width="match_parent"
