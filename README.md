@@ -57,7 +57,8 @@ Note: it is build for Pixel 3 screen size and I've made it scrollable as well.
 
 This screen is made using Tab Layout. On clicking first, it takes you to first fragment and on clicking second, it takes you to second fragment.
 
-<img width="306" alt="image" src="https://github.com/aizakhurram/Assignment1_SMD/assets/102323528/13065865-ad05-428b-ab2b-63975cb219c2">
+<img width="270" alt="image" src="https://github.com/aizakhurram/Assignment1_SMD/assets/102323528/b733e29d-2d2c-423e-b3b0-8bcde606a82e">
+
 
 # Question 2
 
