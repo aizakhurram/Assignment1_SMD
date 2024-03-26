@@ -4,6 +4,7 @@ import androidx.appcompat.app.AppCompatActivity;
 import androidx.fragment.app.Fragment;
 import androidx.fragment.app.FragmentTransaction;
 
+import android.content.Intent;
 import android.os.Bundle;
 import android.view.View;
 import android.widget.FrameLayout;
@@ -14,12 +15,12 @@ import com.google.android.material.tabs.TabLayout;
 public class home_activity extends AppCompatActivity {
  FrameLayout frameLayout;
  TabLayout tabLayout;
-    ImageView backArrowImageView;
+    ImageView backArrowImageView, profile;
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_home);
-
+        profile=findViewById(R.id.profile);
         backArrowImageView = findViewById(R.id.backArrow);
         backArrowImageView.setOnClickListener(new View.OnClickListener() {
             @Override
@@ -27,6 +28,18 @@ public class home_activity extends AppCompatActivity {
                onBackPressed();
             }
         });
+        profile.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                Intent intent = new Intent(home_activity.this, Screen2.class);
+                startActivity(intent);
+                finish();
+
+
+            }
+        });
+
+
 
         frameLayout = (FrameLayout) findViewById(R.id.frameLayout);
         tabLayout= (TabLayout) findViewById(R.id.tabLayout);
