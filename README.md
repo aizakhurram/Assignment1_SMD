@@ -56,8 +56,10 @@ Note: it is build for Pixel 3 screen size and I've made it scrollable as well.
 # Part B
 
 This screen is made using Tab Layout. On clicking first, it takes you to first fragment and on clicking second, it takes you to second fragment.
+- On clicking the profile icon it will redirect you to the home page i.e the instagram profile sample attached in question 2
 
-<img width="306" alt="image" src="https://github.com/aizakhurram/Assignment1_SMD/assets/102323528/13065865-ad05-428b-ab2b-63975cb219c2">
+<img width="221" alt="image" src="https://github.com/aizakhurram/Assignment1_SMD/assets/102323528/df704c91-37a5-40eb-aec2-245c43769a56">
+
 
 # Question 2
 
